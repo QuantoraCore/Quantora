@@ -142,8 +142,8 @@ function whalePresence(topWalletShare, transactionCount) {
 ### 🧪 6. **Liquidity Depth Score (0–100)**
 Pseudo-analysis of pool depth:
 ```javascript
-function liquidityDepthScore(poolETH, tokenMarketCap) {
-  const ratio = poolETH / tokenMarketCap;
+function liquidityDepthScore(pool, tokenMarketCap) {
+  const ratio = pool / tokenMarketCap;
   return Math.min(Math.floor(ratio * 1000), 100); // scaled to 100
 }
 ```
