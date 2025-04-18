@@ -99,47 +99,54 @@ function calculateVolatilityDelta(currentStdDev, historicMean) {
 
 ### 2. 🧠 **Smart Wallet Signal**
 Analyzes the share of addresses with a high Trust Score (or previous profits):
+```javascript
 function smartWalletSignal(activeSmartWallets, totalWallets) {
   const ratio = activeSmartWallets / totalWallets;
   if (ratio > 0.25) return "Strong signal";
   if (ratio > 0.1) return "Moderate activity";
   return "No signal";
 }
-
+```
 - activeSmartWallets: number of verified “smart” addresses
-
 - totalWallets: total number of unique wallets trading the token
 
 ### 🔄 3. **Volume Spike Index (%)**
 Shows abnormal volume growth over the last 15 minutes compared to previous periods:
-
+```javascript
 function volumeSpikeIndex(currentVolume, avgPreviousVolume) {
   return ((currentVolume / avgPreviousVolume) * 100).toFixed(1); // % 
 }
+```
 
 ### 🫀 4. **Token Pulse Grade (A–D)**
 Evaluates the "vitality" of a token based on several internal indexes:
+```javascript
 function tokenPulseGrade(volatility, spikeIndex, smartScore) {
   if (volatility < 30 && spikeIndex < 120 && smartScore === "Strong signal") return "A";
   if (volatility < 50 && spikeIndex < 200) return "B";
   if (volatility > 50 || spikeIndex > 250) return "C";
   return "D";
 }
+```
+
 ### 🔎 5.** Whale Presence**
 Assesses the influence of large wallets on a token:
-
+```javascript
 function whalePresence(topWalletShare, transactionCount) {
   if (topWalletShare > 40 && transactionCount < 10) return "High Dominance";
   if (topWalletShare > 25) return "Moderate Presence";
   return "Low Impact";
 }
+```
 
 ### 🧪 6. **Liquidity Depth Score (0–100)**
 Pseudo-analysis of pool depth:
+```javascript
 function liquidityDepthScore(poolETH, tokenMarketCap) {
   const ratio = poolETH / tokenMarketCap;
   return Math.min(Math.floor(ratio * 1000), 100); // scaled to 100
 }
+```
 
 ---
 
