@@ -67,12 +67,12 @@ It delivers instant, actionable data in a clean UI — perfect for real-time dec
   Real-time index to visualize market tension and volatility.
 
 ---
-
+##⚡**Main formulas**
 ### 🌐 **Q3 2025 (Planned Expansion)**
 
 *Cross-chain support and personalized tracking tools.*
 
-- **Cross-Chain Mode (Solana / Ethereum)**  
+- **Cross-Chain Mode**  
   Minimal UI remains the same, now with multi-chain support.
 
 - **Custom Wallet Tracking**  
@@ -85,7 +85,8 @@ It delivers instant, actionable data in a clean UI — perfect for real-time dec
   Optional Twitter/Discord bot sync for signal broadcasting.
 
 ---
-## 📈 **1. Volatility Delta (%)**
+##  **1. Volatility Delta (%)**
+### 📈 **1. Volatility Delta (%)**
 
 Evaluates dynamic volatility relative to a stable norm:
 
