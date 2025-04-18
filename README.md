@@ -89,11 +89,11 @@ It delivers instant, actionable data in a clean UI — perfect for real-time dec
 ### 📈 **1. Volatility Delta (%)**
 
 Evaluates dynamic volatility relative to a stable norm:
-
+```javascript
 function calculateVolatilityDelta(currentStdDev, historicMean) {
   return ((currentStdDev / historicMean) * 100).toFixed(1); // % 
 }
-
+```
 - currentStdDev: current standard deviation of prices
 - historicMean: average volatility over X hours
 
