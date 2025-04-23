@@ -24,7 +24,7 @@ It delivers instant, actionable data in a clean UI — perfect for real-time dec
 - 🔜 **Whale Reaction Alerts**
 - 🔜 **Volatility Pulse Index**
 - 🔜 **Custom Wallet Tracking**
-- 🔜 **Cross-chain Support (Sol / ETH)**
+- 🔜 **Cross-chain Support**
 - 🔜 **Signal Feed + Discord/Twitter Integration**
 
 ---
