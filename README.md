@@ -161,5 +161,7 @@ function liquidityDepthScore(pool, tokenMarketCap) {
 
 - **Website**: [YourWebsiteLink](https://www.example.com)
 - **GitHub**: [Quantora GitHub Repository](https://github.com/yourusername/quantora)
+- **Gitbook**: [Quantora Gitbook Documentation](https://github.com/yourusername/quantora](https://quantoracore.gitbook.io/quantoracore)
 - **Twitter**: [@Quantora_Tech](https://twitter.com/Quantora_Tech)
+- **Email**: [Quantoracore@gmail.com]
 
