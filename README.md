@@ -12,77 +12,78 @@
 It delivers instant, actionable data in a clean UI — perfect for real-time decisions.
 
 ---
+### 📎 **Official Links**
 
-### 🔮 **Features**
+- **Website**: [YourWebsiteLink](https://quantoracore.com)
+- **GitHub**: [Quantora GitHub Repository](https://github.com/yourusername/quantora)
+- **Gitbook**: [Quantora Gitbook Documentation](https://github.com/yourusername/quantora](https://quantoracore.gitbook.io/quantoracore)
+- **Twitter**: [@Quantora_Tech](https://twitter.com/Quantora_Tech)
+- **Email**: [Quantoracore@gmail.com]
+---
 
-- ✅ **Smart Wallet Alerts**
-- ✅ **Volume Spike Detector**
-- ✅ **Token Entry Radar**
-- ✅ **Token Trend Analyzer**
-- 🔜 **AI Entry Predictions**
-- 🔜 **Micro Pump Anticipation**
-- 🔜 **Whale Reaction Alerts**
-- 🔜 **Volatility Pulse Index**
-- 🔜 **Custom Wallet Tracking**
-- 🔜 **Cross-chain Support**
-- 🔜 **Signal Feed + Discord/Twitter Integration**
+## ✅ Key Features
+
+### 🚨 Smart Wallet Alerts  
+Track top-performing wallets and get notified the moment they make significant moves.  
+Stay ahead of the market by following proven actors.
+
+### 📈 Volume Spike Detector  
+Instantly catch unusual surges in token volume.  
+Perfect for identifying early-stage pumps or manipulation signals.
+
+### 🎯 Token Entry Radar  
+Detect significant early buys by "smart money".  
+Helps you front-run whales and informed actors.
+
+### 📊 Token Trend Analyzer  
+Visualize token trends using liquidity, volume, and on-chain patterns.  
+Identify shifts before they go mainstream.
+
+### 🧼 Minimalistic UI  
+No clutter, just clarity.  
+A clean, distraction-free interface that focuses on what matters most — decision-making in real-time.
+
+---
+## 🗺️ Quantora Roadmap
+
+Quantora evolves through progressive rollout phases, each unlocking new layers of intelligence, prediction, and integration.
 
 ---
 
-### ✅ **Now (Live MVP)**
+### ✅ Phase 1: MVP (Live)  
+**Status:** Released Q3 2025  
+The core signal engine is live and actively scanning the Solana network.
 
-*Quantora is currently live with a minimal but powerful on-chain assistant.*
-
-- **Smart Wallet Alerts**  
-  Track top-performing wallets and receive real-time alerts on their actions.
-
-- **Volume Spike Detection**  
-  Instantly catch unusual volume bursts on newly active tokens.
-
-- **Entry Radar**  
-  Identify the first significant buys and smart money entries.
-
-- **Token Trend Analyzer**  
-  Quick token scoring based on volume, liquidity, and activity.
-
-- **Minimalistic UI**  
-  Clean interface built for speed and signal-first decision making.
+- 📡 Smart Wallet Alerts  
+- 📈 Volume Spike Detection  
+- 🎯 Token Entry Radar *(Beta)*  
+- 📊 Token Trend Analyzer  
+- 🔗 Discord-based **PulseKey** System  
+- 🧬 $QNT Token Access Layer  
 
 ---
 
-### 🚧 **Q2 2025 (Coming Soon)**
+### 🟣 Phase 2: In Progress (Building)  
+**ETA:** Q4 2025  
+This phase deepens Quantora’s analytical logic and expands role automation.
 
-*Enhanced insights, AI predictions, and signal feeds.*
-
-- **Smart Entry Predictor (AI-powered)**  
-  Predicts high-probability entries based on smart wallet patterns.
-
-- **Micro Pump Anticipator**  
-  Detects patterns indicating potential short-term pumps.
-
-- **Whale Reaction Monitor**  
-  Highlights major wallet moves reacting to on-chain volume changes.
-
-- **Volatility Pulse Index**  
-  Real-time index to visualize market tension and volatility.
+- 🧠 AI Smart Entry Predictor  
+- 🚨 Micro Pump Anticipator  
+- 🐋 Whale Reaction Monitor  
+- 📉 Volatility Pulse Index  
+- 🧩 Expanded Role Sync + Auto-Upgrades  
 
 ---
 
-### 🌐 **Q3 2025 (Planned Expansion)**
+### 🔴 Phase 3: Expansion (Planned)  
+**ETA:** Q4 2025 – Q1 2026  
+Quantora will scale across chains and broadcast channels to reach new ecosystems.
 
-*Cross-chain support and personalized tracking tools.*
+- 🌉 Cross-Chain Mode *(Solana + EVM)*  
+- 👛 Custom Wallet Tracking  
+- 📶 On-Chain Signal Feed  
+- 🛰️ Nexus Feed Integration *(Discord/Twitter Bots)*  
 
-- **Cross-Chain Mode**  
-  Minimal UI remains the same, now with multi-chain support.
-
-- **Custom Wallet Tracking**  
-  Add your own wallets for personalized smart alerts.
-
-- **On-Chain Signal Feed**  
-  Live stream of token signals based on multiple real-time metrics.
-
-- **Nexus Feed Integration (Experimental)**  
-  Optional Twitter/Discord bot sync for signal broadcasting.
 
 ---
 ##  ⚡**Main formulas**
@@ -120,32 +121,53 @@ function volumeSpikeIndex(currentVolume, avgPreviousVolume) {
 
 ### 🫀 4. **Token Pulse Grade (A–D)**
 Evaluates the "vitality" of a token based on several internal indexes:
-```javascript
-function tokenPulseGrade(volatility, spikeIndex, smartScore) {
-  if (volatility < 30 && spikeIndex < 120 && smartScore === "Strong signal") return "A";
-  if (volatility < 50 && spikeIndex < 200) return "B";
-  if (volatility > 50 || spikeIndex > 250) return "C";
-  return "D";
-}
+```python
+def token_pulse_grade(volatility, spike_index, smart_score):
+    """
+    Returns a grade (A–D) reflecting token momentum.
+    A = low volatility + low spike + strong signal
+    B = moderate stats
+    C = high volatility or large spikes
+    D = fallback grade
+    """
+    if volatility < 30 and spike_index < 120 and smart_score == "Strong signal":
+        return "A"
+    if volatility < 50 and spike_index < 200:
+        return "B"
+    if volatility > 50 or spike_index > 250:
+        return "C"
+    return "D"
+
 ```
 
 ### 🔎 5.** Whale Presence**
 Assesses the influence of large wallets on a token:
-```javascript
-function whalePresence(topWalletShare, transactionCount) {
-  if (topWalletShare > 40 && transactionCount < 10) return "High Dominance";
-  if (topWalletShare > 25) return "Moderate Presence";
-  return "Low Impact";
-}
+```python
+def whale_presence(top_wallet_share, transaction_count):
+    """
+    Categorizes whale impact:
+    - High Dominance: very concentrated with low activity
+    - Moderate Presence: moderately concentrated
+    - Low Impact: evenly distributed
+    """
+    if top_wallet_share > 40 and transaction_count < 10:
+        return "High Dominance"
+    if top_wallet_share > 25:
+        return "Moderate Presence"
+    return "Low Impact"
+
 ```
 
 ### 🧪 6. **Liquidity Depth Score (0–100)**
 Pseudo-analysis of pool depth:
-```javascript
-function liquidityDepthScore(pool, tokenMarketCap) {
-  const ratio = pool / tokenMarketCap;
-  return Math.min(Math.floor(ratio * 1000), 100); // scaled to 100
-}
+```python
+def liquidity_depth_score(pool, token_market_cap):
+    """
+    Calculates a scaled liquidity score (0–100).
+    Based on the ratio of liquidity pool size to token market cap.
+    """
+    ratio = pool / token_market_cap
+    return min(int(ratio * 1000), 100)
 ```
 
 ---
@@ -156,12 +178,5 @@ function liquidityDepthScore(pool, tokenMarketCap) {
 - JavaScript / HTML / CSS
 - AI-based signal evaluation (upcoming)
 
----
-### 📎 **Official Links**
 
-- **Website**: [YourWebsiteLink](https://www.example.com)
-- **GitHub**: [Quantora GitHub Repository](https://github.com/yourusername/quantora)
-- **Gitbook**: [Quantora Gitbook Documentation](https://github.com/yourusername/quantora](https://quantoracore.gitbook.io/quantoracore)
-- **Twitter**: [@Quantora_Tech](https://twitter.com/Quantora_Tech)
-- **Email**: [Quantoracore@gmail.com]
 
