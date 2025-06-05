@@ -16,7 +16,7 @@ It delivers instant, actionable data in a clean UI — perfect for real-time dec
 
 - **Website**: [YourWebsiteLink](https://quantoracore.com)
 - **GitHub**: [Quantora GitHub Repository](https://github.com/yourusername/quantora)
-- **Gitbook**: [Quantora Gitbook Documentation](https://github.com/yourusername/quantora](https://quantoracore.gitbook.io/quantoracore)
+- **Gitbook**: [Quantora Gitbook Documentation](https://quantoracore.gitbook.io/quantoracore)
 - **Twitter**: [@Quantora_Tech](https://twitter.com/Quantora_Tech)
 - **Email**: [Quantoracore@gmail.com]
 ---
@@ -178,5 +178,16 @@ def liquidity_depth_score(pool, token_market_cap):
 - JavaScript / HTML / CSS
 - AI-based signal evaluation (upcoming)
 
+---
+
+## 🧠 Final Thoughts
+
+Quantora is more than just a signal tool — it's a lightweight on-chain companion built for traders who value clarity, speed, and intelligence. By combining real-time analytics, predictive models, and an evolving access system, Quantora empowers users to navigate markets with sharper insight and faster reactions.
+
+Whether you're tracking smart wallets, spotting volume anomalies, or catching early token entries, Quantora delivers the pulse of the market — right from your browser.
+
+Stay ahead of the curve. Stay synced with the chain.
+
+— The Quantora Team
 
 
