@@ -1,0 +1,6 @@
+{
+  "riskAlert": 60,
+  "volumeSpikeThreshold": 30000,
+  "whaleTxThreshold": 5,
+  "minLiquidityScore": 50
+}
